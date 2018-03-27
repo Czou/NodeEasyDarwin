@@ -5,7 +5,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "cross-env NODE_ENV=development NODE_PATH=. nodemon app.js",
-    "start": "cross-env NODE_ENV=production NODE_PATH=. node app.js"
+    "start": "cross-env NODE_ENV=production NODE_PATH=. node app.js",
+    "pm2": "cross-env NODE_ENV=production NODE_PATH=. pm2 start pm2.config.js"
   },
   "keywords": [
     "RTSP",
